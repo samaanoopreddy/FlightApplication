@@ -67,7 +67,7 @@ app.post('/index',function(req,res){
 });
 
 app.listen(3000);
-console.log('Running on port 3000');
+console.log('Running on port 3000 and to see the outppout enter http://localhost:3000/ in the web browser');
 
 http.createServer(function(request ,response){
 	response.writeHead(200, {'Content-Type': 'text/plain'});
